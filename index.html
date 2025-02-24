@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Kost</title>
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+	<!-- Meta Description -->
+	<meta name="description"
+		content="My Kost memudahkanmu menemukan kos dan kontrakan terbaik untuk disewa, dengan sumber terpercaya dan informasi yang akurat." />
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="My Kost" />
+	<meta property="og:description"
+		content="My Kost memudahkanmu menemukan kos dan kontrakan terbaik untuk disewa, dengan sumber terpercaya dan informasi yang akurat." />
+	<meta property="og:image" content="/vite.svg" />
+	<meta property="og:url" content="https://dilkost.netlify.app/" />
+	<meta property="og:type" content="website" />
+
+	<style>
+		.bXLDzR .rdt_TableHead .rdt_TableHeadRow .kgGExh {
+			min-width: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="root"></div>
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker
+					.register("worker.js")
+					.then(
+						function (registration) {
+							console.log(
+								"Worker registration successful",
+								registration.scope
+							);
+						},
+						function (err) {
+							console.log("Worker registration failed", err);
+						}
+					)
+					.catch(function (err) {
+						console.log(err);
+					});
+			});
+		} else {
+			console.log("Service Worker is not supported by browser.");
+		}
+	</script>
+	<script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

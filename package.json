@@ -1,0 +1,41 @@
+{
+  "name": "gis-kos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-directions": "^4.1.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.1.0",
+    "chart.js": "^4.4.0",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.1",
+    "mapbox-gl": "^2.14.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-confirm-alert": "^3.0.6",
+    "react-data-table-component": "^7.5.4",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-image-gallery": "^1.2.11",
+    "react-js-pagination": "^3.0.3",
+    "react-modal-image": "^2.6.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.4.5",
+    "react-select": "^5.8.0",
+    "select2": "^4.1.0-rc.0",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+#login {
+	contain: content;
+	height: 100vh;
+}
+#login .img1 {
+	width: 100%;
+	height: 100vh;
+}
+#login .img2 {
+	width: 36%;
+}
+
+@media (max-width: 575.98px) {
+	#login {
+		margin-top: 40px;
+	}
+	#login .img1 {
+		display: none;
+	}
+	#login .img2 {
+		width: 80%;
+	}
+}
