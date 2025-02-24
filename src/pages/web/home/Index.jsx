@@ -9,7 +9,7 @@ import Select from 'react-select';
 
 
 function Home() {
-	document.title = "Beranda - My Kost";
+	document.title = "Home - My Kost";
 
 	const [modal, setModal] = useState(false);
 	const [keyword, setKeyword] = useState("");
