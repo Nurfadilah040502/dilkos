@@ -139,6 +139,7 @@ function Login() {
 								<strong>Halaman Login</strong>
 							</h4>
 							<p className="m-0">Selamat Datang di My Kost</p>
+							<p className="m-0">Selamat Datang di My Kost</p>
 							<Link to="/">
 								<img src={ImgLogin2} alt="img" className="img2" />
 							</Link>
